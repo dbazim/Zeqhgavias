@@ -54,6 +54,17 @@ function chapterclick(chapt) {
         // <p class= "textchapter"> <br>  </p>
 	
     }
+	if (chapt == 5) {
+        console.log("chapter5")
+
+        let textchapter = document.querySelector(".text");
+        textchapter.innerHTML = pepitr (readTextFile("text/5.txt"));
+
+        let sectiontext = document.querySelector(".textheader");
+        sectiontext.textContent = "Иллахарит Глава V";
+        // <p class= "textchapter"> <br>  </p>
+	
+    }
 }
 function pepitr (txt) {
 	var result = "";
