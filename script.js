@@ -65,8 +65,8 @@ function chapterclick(chapt) {
         // <p class= "textchapter"> <br>  </p>
 	
     }
-	if (chapt == 10) { // ARTBOOK
-        console.log("chapter10 artbook")
+	if (chapt == 9) { // ARTBOOK
+        console.log("chapter9 artbook")
 
         let textchapter = document.querySelector(".text");
         //textchapter.innerHTML = pepitr (readTextFile("text/5.txt"));
