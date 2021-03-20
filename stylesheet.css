@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "AnglicanText";
+	src: url(images/AnglicanText.ttf);
+}
+@font-face {
+	font-family: "mr_AprilraG";
+	src: url(images/mr_AprilraG.otf);
+}
+@font-face {
+	font-family: "Runic";
+	src: url(images/Runic.ttf);
+}
+@font-face {
+	font-family: "abf";
+	src: url(images/abf.ttf);
+}
+@font-face {
+	font-family: "MB_Gothic_Spell"
+	src: url(images/MB_Gothic_Spell.ttf)
+}
+@font-face {
+	font-family: krasivo;
+	src: url(images/krasivo.ttf)
+}
+
+*{
+	padding:0; margin:0;
+}
+
+.body {
+	background-image: url(images/1518-11120410592228.jpg);
+	background-size: 100%;
+}
+.buttons {
+		width: 80%;
+		height: 220px;
+		background-image: url(images/рис-бумаги-предпосылки-25141551.jpg);
+		margin: 0 auto;
+		border: 30px solid #40c4c8;
+			padding-left: 29px;
+			-moz-border-image: url(images/1582115997_51-p-vintazhnaya-tekstura-84.jpg) 50 repeat;
+			-webkit-border-image: url(images/1582115997_51-p-vintazhnaya-tekstura-84.jpg) 50 repeat; 
+			-o-border-image: url(images/1582115997_51-p-vintazhnaya-tekstura-84.jpg) 50 repeat;
+			border-image: url(images/1582115997_51-p-vintazhnaya-tekstura-84.jpg) 50 repeat;order-width: 12px;
+			outline: 5px ridge #8B4513;
+			background-size: cover;
+		
+		
+			
+			
+
+}
+button:hover {
+	color: #800000;
+	background-image: url(images/1582115992_49-p-vintazhnaya-tekstura-81.jpg);
+}
+
+.chapterbutton {
+	background-image: url(images/bumagapergament.jpg);
+	width: 32%;
+	height: 34%;
+	font-family: "AnglicanText";
+	font-size: 30pt;
+	border: 7px groove;
+	border-color: #BDB76B;
+	transition: all 1s;
+}
+.text {
+	border: 30px solid #40c4c8;
+			padding: 20px;
+			-moz-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			-webkit-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat; 
+			-o-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			border-width: 12px;
+			outline: 5px ridge #8B4513;
+	font-family: "abf";
+	font-size: 28pt;
+	outline-offset: -12px;
+	box-shadow: 0 0 0 2px #8B4513, 0 0 0 3px #000000;
+	text-align: left;
+	text-indent: 25px;
+	margin-bottom: 5px;
+	margin: 14px;
+	
+}
+
+
+
+.biba {
+	margin-left: 40px;
+}
+
+.textheader {
+	font-size: 50pt;
+	 text-align: center;
+	font-family: "mr_AprilraG";
+	padding: 14px;
+	border: 30px solid #40c4c8;
+			padding: 20px;
+			-moz-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			-webkit-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat; 
+			-o-border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			border-image: url(images/1582116027_40-p-vintazhnaya-tekstura-67.jpg) 50 repeat;
+			border-width: 12px;
+			outline: 5px ridge #DEB887;
+}
+.par {
+	padding-bottom: 7px;
+}
+ .text::first-letter {
+    font-size: 110px; /* Размер буквы */
+    float: left; /* Выравнивание по левому краю */
+    margin: 0px 7px -5px 0; /* Отступы вокруг буквы */
+	font-family: krasivo;
+	color: #8B0000;
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+   }
+   
+  #section {
+	height: 90px;
+  }
+  .letterr {
+	width: 20px;
+	height: 30px;
+}
+	  
+	  
+	  
+	  
+	
