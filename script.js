@@ -65,6 +65,18 @@ function chapterclick(chapt) {
         // <p class= "textchapter"> <br>  </p>
 	
     }
+	if (chapt == 10) { // ARTBOOK
+        console.log("chapter5")
+
+        let textchapter = document.querySelector(".text");
+        //textchapter.innerHTML = pepitr (readTextFile("text/5.txt"));
+	textchapter.innerHTML = "<img src='artbook/Вераксус_artbook.png'>"
+
+        let sectiontext = document.querySelector(".textheader");
+        sectiontext.textContent = "Иллахарит Глава V";
+        // <p class= "textchapter"> <br>  </p>
+	
+    }
 }
 function pepitr (txt) {
 	var result = "";
